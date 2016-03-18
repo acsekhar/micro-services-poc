@@ -53,11 +53,12 @@ dependencies {
 	testCompile('org.cassandraunit:cassandra-unit-spring:2.2.2.1');
 }
 
-test {
-	testLogging {
-		showStandardStreams = true
-	} 
-}
+//Uncomment to enable test logging
+//test {
+//	testLogging {
+//		showStandardStreams = true
+//	} 
+//}
 
 eclipse {
 	classpath {
